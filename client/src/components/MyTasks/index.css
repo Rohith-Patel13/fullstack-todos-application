@@ -1,0 +1,72 @@
+.todo-item-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-container {
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    padding: 15px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.label-textDecoration{
+    text-decoration: line-through;
+}
+
+.deleteButton{
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+@media (max-width:400px){
+    .delete-icon {
+        width: 45px;
+    }
+    .checkbox-label{
+        font-size: 15px;
+    }
+    .label-container{
+        min-width: 100%;
+    }
+}
