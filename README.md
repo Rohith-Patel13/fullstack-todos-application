@@ -20,38 +20,6 @@ Build a basic to-do list web application using React for the front-end and Node.
 
 
 
-## Project Structure
-Todos-List-App/
-|-- client/
-|   |-- .gitignore
-|   |-- node_modules/
-|   |-- package.json
-|   |-- package-lock.json
-|   |-- public/
-|   |-- src/
-|   |   |-- App.css
-|   |   |-- App.js
-|   |   |-- App.test.js
-|   |   |-- components/
-|   |   |   |-- MyTasks/
-|   |   |   |   |-- index.css
-|   |   |   |   |-- index.js
-|   |   |-- index.css
-|   |   |-- index.js
-|   |   |-- logo.svg
-|   |   |-- reportWebVitals.js
-|   |   |-- setupTests.js
-|-- server/
-|   |-- .gitignore
-|   |-- node_modules/
-|   |-- package.json
-|   |-- package-lock.json
-|   |-- server.js
-|   |-- todos.db
-|-- README.md
-
-
-
 **Front-End**
 The front-end of the application is built using React.js. The main functionality of the to-do list is implemented in the `App.js` component, which includes the following features:
 - Adding new tasks to the to-do list.
